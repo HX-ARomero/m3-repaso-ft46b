@@ -20,6 +20,7 @@ const postEpisode = async (req, res) => {
       id: data.id,
       name: data.name,
       air_date: data.air_date,
+      episode: data.episode,
       completed: false
     };
     //* Response traiga el episodio
